@@ -1453,7 +1453,7 @@ class _DateRangePickerDialogState extends State<DateRangePickerDialog> with Rest
           selectedEndDate: _selectedEnd.value,
           currentDate: widget.currentDate,
           picker: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
+            padding: const EdgeInsets.symmetric(horizontal: 2),
             height: orientation == Orientation.portrait
                 ? _inputFormPortraitHeight
                 : _inputFormLandscapeHeight,
